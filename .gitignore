@@ -1,0 +1,14 @@
+# Generated data and logs (rebuild with: python scripts/seed_data.py)
+data/*.db
+data/docs/
+data/eval_cases.json
+logs/
+
+# Local env
+.env
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
