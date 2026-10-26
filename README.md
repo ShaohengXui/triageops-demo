@@ -9,6 +9,8 @@ argue about later — **what happens when the evidence is missing or the model i
 
 Most agent demos show a model being clever. This one shows a pipeline that refuses to guess.
 
+**Want this built for your own documents?** [Fixed-price services on Upwork →](#work-with-me)
+
 ![Run a case](screenshots/01-run-case.png)
 
 ---
@@ -134,6 +136,28 @@ scripts/
   documents.py  the synthetic procedure corpus
 tests/          36 tests: rules, tools, checkpoints, citations, retrieval
 ```
+
+## Work with me
+
+This repository is the demo. The same pipeline, applied to a client's own documents, is what I sell
+as fixed-scope work:
+
+| Service | Price | Delivery | What you get |
+|---|---|---|---|
+| [RAG failure report](https://www.upwork.com/services/product/development-it-a-rag-failure-report-from-20-of-your-own-questions-2114555934255844996) | $150 | 3 days | 20 of your own questions run against your current assistant, a verdict per question, failure modes ranked by user impact, and the eval script so you can re-run it after every change |
+| [Document chatbot](https://www.upwork.com/services/product/development-it-a-document-chatbot-that-cites-its-sources-2114552290746786596) | $600 | 7 days | Chatbot that answers only from your files, validates every citation before it reaches the user, refuses when the evidence is missing. Docker, source code, 20-question baseline |
+| [Citation-checked RAG assistant](https://www.upwork.com/services/product/i-will-build-a-citation-checked-rag-assistant-over-your-documents-2114212630510554321) | $900 | 10 days | The full build, scoped to a real multi-document corpus with retrieval and evaluation work included |
+
+Three things worth knowing before you order:
+
+- **Everything is delivered in writing.** No calls are required — which also means every decision
+  has a paper trail you can hand to whoever signs off.
+- **The $150 report measures; it does not fix.** It tells you what the fix should be and ranks it.
+  Implementing the fixes is a separate scope, and pricing it after the diagnosis is fairer than
+  pricing it before.
+- **No accuracy number is promised before the evaluation runs.** Any figure quoted up front would be
+  invented. The 20-question baseline is part of the delivery precisely so the number comes from
+  your data, not from me.
 
 ## Limitations — stated plainly
 
