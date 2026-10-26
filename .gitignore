@@ -12,3 +12,6 @@ logs/
 __pycache__/
 *.py[cod]
 .pytest_cache/
+
+# Landing-page images are uploaded to the origin server directly
+img/
